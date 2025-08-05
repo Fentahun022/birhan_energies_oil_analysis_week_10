@@ -87,9 +87,47 @@ cd birhan_energies_oil_analysis_week_10
 cd backend
 
 # Create and activate a Python virtual environment
+# This isolates project dependencies from your global Python installation.
 python3 -m venv venv
 # On Linux/macOS:
 source venv/bin/activate
+# On Windows (PowerShell):
+# .\venv\Scripts\Activate.ps1
+# On Windows (Command Prompt or Git Bash):
+# .\venv\Scripts\activate.bat
 
+# Create requirements.txt (if not already present)
+# Ensure these dependencies are listed for proper installation:
+# pandas
+# numpy
+# matplotlib
+# seaborn
+# pymc
+# arviz
+# flask
+# flask-cors
+
+# Install Python dependencies from requirements.txt
 pip install -r requirements.txt
 
+# Go back to the root project directory
+cd ..
+
+cd frontend
+
+# Install Node.js dependencies listed in package.json
+# This includes React, Recharts, and other development tools.
+npm install
+
+# Go back to the root project directory
+cd ..
+
+# how to run 
+python analysis/compile_events.py
+python analysis/preprocess_data.py
+python analysis/change_point_model.py
+python app.py
+
+
+# frontend how to run
+npm start
