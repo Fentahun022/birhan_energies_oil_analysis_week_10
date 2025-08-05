@@ -1,0 +1,17 @@
+EventDate,EventType,EventDescription,ImpactType
+1990-08-02,Geopolitical,Iraq invades Kuwait (Gulf War begins),Supply_Shock_Price_Surge
+1997-07-02,Economic,Asian Financial Crisis begins,Demand_Shock_Price_Decrease
+2001-09-11,Geopolitical,September 11 Attacks,Volatility_Increase_Temporary_Fall
+2008-09-15,Economic,Lehman Brothers Collapse (Global Financial Crisis),Demand_Shock_Price_Collapse
+2014-06-01,Supply,US Shale Boom / OPEC Production Stance,Oversupply_Price_Decrease
+2015-07-14,Political,Iran Nuclear Deal (JCPOA) Signed,Potential_Supply_Increase
+2016-02-11,Economic,Global Economic Slowdown Concerns / Oversupply,Price_Low
+2016-11-30,OPEC,OPEC+ agrees to production cuts,Price_Support
+2018-05-08,Political,US withdraws from Iran Nuclear Deal (sanctions reimposed),Supply_Concerns_Price_Rise
+2018-10-01,Economic,US-China Trade War Escalates,Demand_Concerns_Price_Decrease
+2019-09-14,Geopolitical,Attacks on Saudi Aramco Facilities,Supply_Shock_Temporary_Spike
+2020-03-08,Pandemic,COVID-19 Outbreak & Global Lockdowns,Demand_Shock_Price_Collapse
+2020-04-20,Market_Anomaly,WTI Futures go Negative (Extreme Demand Collapse),Extreme_Price_Collapse
+2022-02-24,Geopolitical,Russia-Ukraine War Begins,Supply_Shock_Price_Surge
+2022-06-01,Economic,Global Recession Fears / Central Bank Rate Hikes,Demand_Concerns_Price_Decrease
+2022-09-05,OPEC,OPEC+ announces modest production cut,Supply_Tightening_Price_Support

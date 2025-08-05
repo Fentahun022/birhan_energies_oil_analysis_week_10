@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import os 
 
-def preprocess_brent_data(file_path='backend/data/BrentOilPrices.csv'):
+def preprocess_brent_data(file_path='data/BrentOilPrices.csv'):
    
     df = pd.read_csv(file_path)
 
