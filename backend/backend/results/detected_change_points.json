@@ -1,0 +1,11 @@
+{
+    "change_point_date": "2008-07-29",
+    "mean_log_return_before": "0.0348%",
+    "mean_log_return_after": "-0.0064%",
+    "volatility_before": "0.0230",
+    "volatility_after": "0.0289",
+    "volatility_change_percent": "25.25%",
+    "associated_event_hypothesis": "Research key_events.csv around this date for a hypothesis.",
+    "prob_mean_increase": 0.231,
+    "prob_vol_increase": 1.0
+}
